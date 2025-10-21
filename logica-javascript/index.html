@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula de js</title>
+</head>
+
+<body style="background-color: black; color: white;">
+    <h2>Meu nome é : </h2>
+    <h3 id="nome-tela"></h3>
+    <h2>Minha idade é: </h2>
+    <h3 id="idade-tela"></h3>
+    <hr>
+    <h1 id="frase"></h1>
+
+    <script>
+        let nomeCompleto = prompt("Digite seu nome:")
+        alert(nomeCompleto)
+        let idade = prompt("Digite sua idade:")
+        alert(idade)
+        let endereco = prompt("Digite seu endereço:")
+        alert(endereco)
+        let email = prompt("Digite seu email:")
+        alert(email)
+        let cidade = prompt("Digite sua cidade:")
+        alert(cidade)
+
+        alert(`Olá ${nomeCompleto}, seja bem vindo!`)
+
+        let frase = `Meu nome é ${nomeCompleto}, tenho ${idade} anos.\n Meu endereço é ${endereco} e minha cidade é ${cidade}\n Meu email é ${email}!`
+        document.getElementById("nome-tela").innerText = nomeCompleto
+        document.getElementById("idade-tela").innerText = idade
+        document.getElementById("frase").innerText = frase
+    </script>
+
+</body>
+
+</html>
