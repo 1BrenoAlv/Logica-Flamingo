@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 003</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e0e7ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+
+        button {
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            background-color: #4f46e5;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        button:hover {
+            background-color: #4338ca;
+            transform: translateY(-2px);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Exercícios de Lógica</h1>
+        <div class="grid">
+            <button id="btn-01">Ex 1 - Show +16</button>
+            <button id="btn-02">Ex 2 - Maioridade</button>
+            <button id="btn-03">Ex 3 - Comparar Números</button>
+            <button id="btn-04">Ex 4 - Comparar Idades</button>
+            <button id="btn-05">Ex 5 - Habilitação</button>
+            <button id="btn-06">Ex 6 - IMC</button>
+            <button id="btn-07">Ex 7 - Pos/Neg/Zero</button>
+            <button id="btn-08">Ex 8 - Aprovação</button>
+            <button id="btn-09">Ex 9 - Turno</button>
+            <button id="btn-10">Ex 10 - Par/Ímpar</button>
+            <button id="btn-11">Ex 11 - Desconto</button>
+            <button id="btn-12">Ex 12 - Palavra JS</button>
+            <button id="btn-13">Ex 13 - Tamanho Nome</button>
+            <button id="btn-14">Ex 14 - Clima</button>
+            <button id="btn-15">Ex 15 - Classif. Nota</button>
+            <button id="btn-16">Ex 16 - Maioridade Intl</button>
+            <button id="btn-17">Ex 17 - Conversão Temp</button>
+            <button id="btn-18">Ex 18 - Maiúscula/Min</button>
+            <button id="btn-19">Ex 19 - Média 3 Notas</button>
+            <button id="btn-20">Ex 20 - Preço Produto</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
